@@ -4,7 +4,7 @@
 The reduction of zero one equations to an integer linear programming problem can be done by converting the ZOE problem into a standard ILP form by adding some constraints.
 In essence, ZOEs are ILP problems in disguise. \
 All they need are integer constraints for each variable to be 0 or 1 and every equation can be split into two inequalities that when combined, generates an equation. \
-For example, if we have $x_1 + x_2 = 1$, we can write it as a combination of inequalities as $x_1 + x_2 \le 1$ and $x_1 + x_2 > 1$.
+For example, if we have $x_1 + x_2 = 1$, we can write it as a combination of inequalities as $x_1 + x_2 \le 1$ and $x_1 + x_2 \ge 1$.
 
 ### The Heuristic
 
